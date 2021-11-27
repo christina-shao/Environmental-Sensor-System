@@ -1,6 +1,8 @@
 # Environmental-Sensor-System
 Code for an Arduino-based sensor system to be implemented on a car rig for an experiment to inform the propulsion selection for an unmanned aerial system to be used in the SAE aero design competition in May 2022.
 
+Developed for the University of Toronto Aerospace Team's SAE aero design team propulsion team.
+
 ## Code
 The system uses pressure readings from a pitot tube with static and a DHS temperature and humidity sensor to supplement the data obtained from our propellor test bench. The arduino then streams the airspeed, temperature, and humidity readings to a monitor while storing them to the on-board SD card.
 
